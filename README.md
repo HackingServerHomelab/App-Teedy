@@ -12,8 +12,6 @@
     * `../Data/postgres:/var/lib/postgresql/data`
 1. Update the following lines in [docker-compose.yml](./Docker/docker-compose.yml)
     * `DOCS_BASE_URL=https://localhost`
-    * `DATABSASE_URL=postgresql://postgres:5432/teedy`
-    * `DATABASE_USER=teedy`
     * `DATABASE_PASSWORD=changeme`
     * `POSTGRES_PASSWORD=changeme`
 2. Update the Traefik host label in [docker-compose.yml](./Docker/docker-compose.yml)
@@ -23,3 +21,4 @@
 ## First Time Setup
 
 1. Visit <https://your-ip>
+2. Log in with the default credentials `admin:admin`
